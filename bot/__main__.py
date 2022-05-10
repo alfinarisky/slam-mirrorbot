@@ -54,7 +54,6 @@ Hi, I'm [Putri Berduri](https://github.com/alfinarisky/slam-mirrorbot), a multip
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     update.effective_message.reply_photo("https://te.legra.ph/file/c9e7528d47caf6a3c7ca3.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
-'''
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
