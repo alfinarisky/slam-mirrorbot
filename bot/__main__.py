@@ -48,7 +48,6 @@ def start(update, context):
     buttons.buildbutton("Repo", "https://github.com/SlamDevs/slam-mirrorbot")
     buttons.buildbutton("Channel", "https://t.me/SlamMirrorUpdates")
     buttons.buildbutton("Owner", "https://t.me/faishalk")
-    buttons.buildbutton("Github", "https://github.com/alfinarisky")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
